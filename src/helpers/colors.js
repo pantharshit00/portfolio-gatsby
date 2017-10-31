@@ -1,0 +1,10 @@
+export const $brand_color = '#25a65b';
+export const $white = '#fff';
+export const $node = '#61bb65';
+export const $react = '#4dd9fd';
+export const $vue = '#00c484';
+export const $angular = '#e90025';
+export const $socket = '#ed33ed';
+export const $db = '#00748f';
+export const $python = '#f9e651';
+export const $php = '#7e6db2';

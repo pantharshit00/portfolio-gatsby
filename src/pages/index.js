@@ -1,12 +1,15 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Hero, MyImage, Intro } from '../layouts/styles/index.styles';
 
 const IndexPage = () => (
   <div>
-    <h1>Hi</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Hero>
+      <MyImage src={'https://avatars3.githubusercontent.com/u/22195362?v=4'} />
+      <Intro>
+        <h1>I am Harshit Pant</h1>
+        <h4>I am a fullstack web developer. I make excellent websites.</h4>
+      </Intro>
+    </Hero>
   </div>
 );
 
